@@ -244,7 +244,7 @@ function setEffect_on_hyperion(id){
                 hyperion.setEffect(myname, myargument_object, function( err, result ) {
                     console.log(myname);
                     if (!err) {
-                        adapter.setState('contorl.activeEffects', myname);
+                        adapter.setState('control.activeEffects', myname);
                         adapter.log.info('Set effect: ' + myname);
                         //console.log(JSON.stringify(result));
                     } else {
